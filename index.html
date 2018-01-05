@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FccWeatherProject3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body onload="myFunction()" style="margin:0;">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+
+
+
+  
+<div id="loader"></div> 
+
+
+<div class="flex-container">
+  
+
+ <div   id="myDiv" class="animate-top"> 
+  
+  <div class="local"><div>Your Local Weather for</div>
+    
+     
+    
+    <div> <span id="city"></span><span id="country"></div></div>
+
+  <div class="transbox">
+    
+  
+<!--Date & Time    -->
+  <div id="date"></div>
+<div id="time"></div> 
+    <hr class="location"></hr>
+    
+ 
+<!--   Temp   -->
+    <div><span id="tempF"></span>
+      <span id="tempC" style="display: none"></span></div>
+<!--  High & Low Temp      -->
+     <div class= "maxMin"><i class="fa fa-arrow-up" style="font-size:20px;color:red;" alt="arrow Up"></i>
+       <span id="tempHf"></span><span id="tempHc" style="display: none"> </span>&nbsp;<i class="fa fa-arrow-down" style="font-size:20px;color:blue;" alt="arrow down"></i><span id="tempLf"></span><span id="tempLc" style="display: none"> </span>&nbsp;</div>
+  <button>&deg; F &nbsp; / &nbsp; &deg; C </button>
+  <!--   Condition     -->
+  <div><span id="cond"></span><span id="wIcon"></span></div>
+ 
+    <hr></hr>
+  <!-- Humididty & Wind     -->
+  <div><span><img src="http://res.cloudinary.com/tamtamwilson/image/upload/e_brightness:-16/v1512134435/Weather%20Project/humidity_2.png"></img></span><span id="humidity" alt="humidity">&nbsp;</span><span><img src="http://res.cloudinary.com/tamtamwilson/image/upload/e_brightness:-16/v1512270739/Weather%20Project/wind-sign.png"alt="Wind" ></img></span>
+    <span id="wind"></span><span id="wind2" style="display:none"></span>
+   </div>
+<!-- Sunrise & Sunset -->
+  <p><img src="http://res.cloudinary.com/tamtamwilson/image/upload/e_brightness:-16/v1512149450/Weather%20Project/sunrise.png" class="myimages"alt="Sunrise" >&nbsp;</img><span id="sunRise">&nbsp;</span>&nbsp; <img src="http://res.cloudinary.com/tamtamwilson/image/upload/e_brightness:-16/v1512149450/Weather%20Project/sunset.png"
+      class="myimages"alt="Sunset" ></img><span id="sunSet"></span></p>
+
+    
+<!--   <footer> -->
+
+
+    <div>Designed and Coded by Tamara Wilson</div>
+</div>
+
+
+</div>
+
+<!-- <a href='https://www.freepik.com/free-vector/colorful-weather-icons-pack_755311.htm'>Icons by Freepik</a> 
+  <div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+<!-- </footer> -->
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
